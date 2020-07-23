@@ -22,6 +22,7 @@
 		CE17CD4F24BF132F006E8407 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD4E24BF132F006E8407 /* ProfileViewController.swift */; };
 		CE17CD5224BF44B5006E8407 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD5124BF44B5006E8407 /* Extensions.swift */; };
 		CE17CD5424C1CDC5006E8407 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE17CD5324C1CDC5006E8407 /* GoogleService-Info.plist */; };
+		CE51AC0624C95C080009DB25 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51AC0524C95C080009DB25 /* ChatViewController.swift */; };
 		CE57161924C2EF2A004AD0C1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57161824C2EF2A004AD0C1 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		CE17CD4E24BF132F006E8407 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CE17CD5124BF44B5006E8407 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CE17CD5324C1CDC5006E8407 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE51AC0524C95C080009DB25 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CE57161824C2EF2A004AD0C1 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		D931274060E3DE361AF45555 /* Pods_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				CE17CD4A24BF12FD006E8407 /* VideoPlayerViewController.swift */,
 				CE17CD4C24BF1321006E8407 /* NewConversationViewController.swift */,
 				CE17CD4E24BF132F006E8407 /* ProfileViewController.swift */,
+				CE51AC0524C95C080009DB25 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				CE17CD2B24BF0D24006E8407 /* AppDelegate.swift in Sources */,
 				CE17CD4F24BF132F006E8407 /* ProfileViewController.swift in Sources */,
 				CE17CD2D24BF0D24006E8407 /* SceneDelegate.swift in Sources */,
+				CE51AC0624C95C080009DB25 /* ChatViewController.swift in Sources */,
 				CE17CD4924BF12E6006E8407 /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
