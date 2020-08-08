@@ -24,6 +24,7 @@
 		CE17CD5424C1CDC5006E8407 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE17CD5324C1CDC5006E8407 /* GoogleService-Info.plist */; };
 		CE51AC0624C95C080009DB25 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51AC0524C95C080009DB25 /* ChatViewController.swift */; };
 		CE57161924C2EF2A004AD0C1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57161824C2EF2A004AD0C1 /* DatabaseManager.swift */; };
+		CEB30A3A24DC36F800379FC0 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB30A3924DC36F800379FC0 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		CE17CD5324C1CDC5006E8407 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE51AC0524C95C080009DB25 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CE57161824C2EF2A004AD0C1 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		CEB30A3924DC36F800379FC0 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		D931274060E3DE361AF45555 /* Pods_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 				CE17CD2C24BF0D24006E8407 /* SceneDelegate.swift */,
 				CE17CD5124BF44B5006E8407 /* Extensions.swift */,
 				CE57161824C2EF2A004AD0C1 /* DatabaseManager.swift */,
+				CEB30A3924DC36F800379FC0 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				CE17CD2D24BF0D24006E8407 /* SceneDelegate.swift in Sources */,
 				CE51AC0624C95C080009DB25 /* ChatViewController.swift in Sources */,
 				CE17CD4924BF12E6006E8407 /* PhotoViewerViewController.swift in Sources */,
+				CEB30A3A24DC36F800379FC0 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
