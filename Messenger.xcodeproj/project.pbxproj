@@ -17,7 +17,6 @@
 		CE17CD4524BF1299006E8407 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD4424BF1299006E8407 /* LoginViewController.swift */; };
 		CE17CD4724BF12AD006E8407 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD4624BF12AD006E8407 /* RegisterViewController.swift */; };
 		CE17CD4924BF12E6006E8407 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD4824BF12E6006E8407 /* PhotoViewerViewController.swift */; };
-		CE17CD4B24BF12FD006E8407 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD4A24BF12FD006E8407 /* VideoPlayerViewController.swift */; };
 		CE17CD4D24BF1321006E8407 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD4C24BF1321006E8407 /* NewConversationViewController.swift */; };
 		CE17CD4F24BF132F006E8407 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD4E24BF132F006E8407 /* ProfileViewController.swift */; };
 		CE17CD5224BF44B5006E8407 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17CD5124BF44B5006E8407 /* Extensions.swift */; };
@@ -25,6 +24,10 @@
 		CE4A86D2254733D7001AE0A2 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A86D1254733D7001AE0A2 /* LocationPickerViewController.swift */; };
 		CE51AC0624C95C080009DB25 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51AC0524C95C080009DB25 /* ChatViewController.swift */; };
 		CE57161924C2EF2A004AD0C1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57161824C2EF2A004AD0C1 /* DatabaseManager.swift */; };
+		CE581D1C255551B4006014FB /* ConversationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE581D1B255551B4006014FB /* ConversationModels.swift */; };
+		CE581D1E25555289006014FB /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE581D1D25555289006014FB /* ChatModels.swift */; };
+		CE581D2025555303006014FB /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE581D1F25555303006014FB /* SearchResult.swift */; };
+		CE581D22255553E5006014FB /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE581D21255553E5006014FB /* ProfileViewModel.swift */; };
 		CE62D8172505FE1800B0897B /* NewConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62D8162505FE1800B0897B /* NewConversationCell.swift */; };
 		CEB30A3A24DC36F800379FC0 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB30A3924DC36F800379FC0 /* StorageManager.swift */; };
 		CEB30A3C24F1693700379FC0 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB30A3B24F1693700379FC0 /* ConversationTableViewCell.swift */; };
@@ -44,7 +47,6 @@
 		CE17CD4424BF1299006E8407 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE17CD4624BF12AD006E8407 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CE17CD4824BF12E6006E8407 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
-		CE17CD4A24BF12FD006E8407 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		CE17CD4C24BF1321006E8407 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		CE17CD4E24BF132F006E8407 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CE17CD5124BF44B5006E8407 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -52,6 +54,10 @@
 		CE4A86D1254733D7001AE0A2 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
 		CE51AC0524C95C080009DB25 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CE57161824C2EF2A004AD0C1 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		CE581D1B255551B4006014FB /* ConversationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModels.swift; sourceTree = "<group>"; };
+		CE581D1D25555289006014FB /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
+		CE581D1F25555303006014FB /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		CE581D21255553E5006014FB /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		CE62D8162505FE1800B0897B /* NewConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationCell.swift; sourceTree = "<group>"; };
 		CEB30A3924DC36F800379FC0 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		CEB30A3B24F1693700379FC0 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
@@ -116,7 +122,6 @@
 				CE17CD2E24BF0D24006E8407 /* ConversationsViewController.swift */,
 				CE17CD5024BF2FC0006E8407 /* Login */,
 				CE17CD4824BF12E6006E8407 /* PhotoViewerViewController.swift */,
-				CE17CD4A24BF12FD006E8407 /* VideoPlayerViewController.swift */,
 				CE17CD4C24BF1321006E8407 /* NewConversationViewController.swift */,
 				CE17CD4E24BF132F006E8407 /* ProfileViewController.swift */,
 				CE51AC0524C95C080009DB25 /* ChatViewController.swift */,
@@ -139,6 +144,10 @@
 		CE17CD4024BF108E006E8407 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE581D1B255551B4006014FB /* ConversationModels.swift */,
+				CE581D1D25555289006014FB /* ChatModels.swift */,
+				CE581D1F25555303006014FB /* SearchResult.swift */,
+				CE581D21255553E5006014FB /* ProfileViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -342,18 +351,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE17CD4524BF1299006E8407 /* LoginViewController.swift in Sources */,
+				CE581D22255553E5006014FB /* ProfileViewModel.swift in Sources */,
 				CE62D8172505FE1800B0897B /* NewConversationCell.swift in Sources */,
 				CE57161924C2EF2A004AD0C1 /* DatabaseManager.swift in Sources */,
+				CE581D1E25555289006014FB /* ChatModels.swift in Sources */,
 				CE17CD4724BF12AD006E8407 /* RegisterViewController.swift in Sources */,
 				CE17CD4D24BF1321006E8407 /* NewConversationViewController.swift in Sources */,
 				CE17CD2F24BF0D24006E8407 /* ConversationsViewController.swift in Sources */,
-				CE17CD4B24BF12FD006E8407 /* VideoPlayerViewController.swift in Sources */,
 				CE17CD5224BF44B5006E8407 /* Extensions.swift in Sources */,
+				CE581D2025555303006014FB /* SearchResult.swift in Sources */,
 				CE17CD2B24BF0D24006E8407 /* AppDelegate.swift in Sources */,
 				CE17CD4F24BF132F006E8407 /* ProfileViewController.swift in Sources */,
 				CE17CD2D24BF0D24006E8407 /* SceneDelegate.swift in Sources */,
 				CEB30A3C24F1693700379FC0 /* ConversationTableViewCell.swift in Sources */,
 				CE51AC0624C95C080009DB25 /* ChatViewController.swift in Sources */,
+				CE581D1C255551B4006014FB /* ConversationModels.swift in Sources */,
 				CE17CD4924BF12E6006E8407 /* PhotoViewerViewController.swift in Sources */,
 				CEB30A3A24DC36F800379FC0 /* StorageManager.swift in Sources */,
 				CE4A86D2254733D7001AE0A2 /* LocationPickerViewController.swift in Sources */,

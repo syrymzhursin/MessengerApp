@@ -9,9 +9,12 @@
 import Foundation
 import FirebaseStorage
 
+/// Allows you to get, fetch and upload files to firebase storage
 final class StorageManager {
     
     static let shared = StorageManager()
+    
+    private init() {}
     
     private let storage = Storage.storage().reference()
     
@@ -23,14 +26,18 @@ final class StorageManager {
     
     /// Uploads picture to firebase storage and returns completion with url string to download
     public func uploadProfilePicture(with data: Data, fileName: String, completion: @escaping UploadPictureCompletion) {
-        storage.child("images/\(fileName)").putData(data, metadata: nil, completion: { metadata, error in
+        storage.child("images/\(fileName)").putData(data, metadata: nil, completion: { [weak self] metadata, error in
+            guard let strongSelf = self else {
+                return
+            }
+            
             guard error == nil else {
                 // failed
                 print("Failed to upload data to Firebase for picture")
                 completion(.failure(StorageErrors.failedToUpload))
                 return
             }
-              self.storage.child("images/\(fileName)").downloadURL(completion: { url, error in
+              strongSelf.storage.child("images/\(fileName)").downloadURL(completion: { url, error in
                 guard let url = url else {
                     print("Failed to get download URL")
                     completion(.failure(StorageErrors.failedToGetDownloadUrl))
